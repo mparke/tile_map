@@ -8,13 +8,13 @@ A JavaScript 2 dimensional array module
 ### Instantiation
 <pre>
    <code>
-     // create a 2 x 2 tile map
-     var tileMap = new TileMap(2, [1, 2, 3, 4]);
+    // create a 2 x 2 tile map
+    var tileMap = new TileMap(2, [1, 2, 3, 4]);
    </code>
 </pre>
 
 <pre>
-  // internal representation
+    // internal representation
   
                   null           null
                    ^              ^
