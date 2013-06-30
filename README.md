@@ -14,6 +14,7 @@ A JavaScript 2 dimensional array module
 </pre>
 
 <pre>
+  <code>
   // internal representation
   
                   null           null
@@ -37,6 +38,7 @@ A JavaScript 2 dimensional array module
                    |              |
                    v              v
                   null           null
+  </code>
 </pre>
 
 ### API
