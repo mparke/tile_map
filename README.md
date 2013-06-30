@@ -21,16 +21,16 @@ A JavaScript 2 dimensional array module
                    |              |
                    +              +
                +------+       +------+
-               |      | -----+|      |
-     null  ---+| root |       |      |+---&gt; null
+               |      |&lt;-----+|      |
+     null &lt;---+| root |       |      |+---&gt; null
                |      |+-----&gt;|      |
                +------+       +------+
                  +  ^           +  ^
                  |  |           |  |
                  v  +           v  +
                +------+       +------+
-               |      | -----+|      |
-     null  ---+|      |       |      |+---&gt; null
+               |      |&lt;-----+|      |
+     null &lt;---+|      |       |      |+---&gt; null
                |      |+-----&gt;|      |
                +------+       +------+
                    +              +
@@ -38,7 +38,6 @@ A JavaScript 2 dimensional array module
                    v              v
                   null           null
                   
- // left arrows not shown, looking into getting &lt; to render in pre tags
 </pre>
 
 ### API
