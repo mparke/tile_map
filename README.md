@@ -14,29 +14,29 @@ A JavaScript 2 dimensional array module
 </pre>
 
 <pre>
-    // internal representation
-
-                  null             null
-                   ^                ^
-                   |                |
-                   +                +
-               +------+          +------+
-               |      |&lt;-----+|      |
-  null &lt;---+| root |          |      |+---&gt; null
-               |      |+-----&gt;|      |
-               +------+          +------+
-                 +  ^              +  ^
-                 |  |              |  |
-                 v  +              v  +
-               +------+          +------+
-               |      |&lt;-----+|      |
-  null &lt;---+|      |          |      |+---&gt; null
-               |      |+-----&gt;|      |
-               +------+          +------+
-                   +                 +
-                   |                 |
-                   v                 v
-                  null             null
+  // internal representation
+  
+                  null           null
+                   ^              ^
+                   |              |
+                   +              +
+               +------+       +------+
+               |      |<-----+|      |
+     null <---+| root |       |      |+---> null
+               |      |+----->|      |
+               +------+       +------+
+                 +  ^           +  ^
+                 |  |           |  |
+                 v  +           v  +
+               +------+       +------+
+               |      |<-----+|      |
+     null <---+|      |       |      |+---> null
+               |      |+----->|      |
+               +------+       +------+
+                   +              +
+                   |              |
+                   v              v
+                  null           null
 </pre>
 
 ### API
