@@ -10,31 +10,33 @@ A JavaScript 2 dimensional array module
    <code>
      // create a 2 x 2 tile map
      var tileMap = new TileMap(2, [1, 2, 3, 4]);
-     
-     // internal representation
-
-                  null           null
-                   ^              ^
-                   |              |
-                   +              +
-               +------+       +------+
-               |  1   |<-----+|  2   |
-     null <---+| root |       |      |+---> null
-               |      |+----->|      |
-               +------+       +------+
-                 +  ^           +  ^
-                 |  |           |  |
-                 v  +           v  +
-               +------+       +------+
-               |  3   |<-----+|  4   |
-     null <---+|      |       |      |+---> null
-               |      |+----->|      |
-               +------+       +------+
-                   +              +
-                   |              |
-                   v              v
-                  null           null
    </code>
+</pre>
+
+<pre>
+    // internal representation
+
+                  null             null
+                   ^                ^
+                   |                |
+                   +                +
+               +------+          +------+
+               |      |&lt;-----+|      |
+  null &lt;---+| root |          |      |+---&gt; null
+               |      |+-----&gt;|      |
+               +------+          +------+
+                 +  ^              +  ^
+                 |  |              |  |
+                 v  +              v  +
+               +------+          +------+
+               |      |&lt;-----+|      |
+  null &lt;---+|      |          |      |+---&gt; null
+               |      |+-----&gt;|      |
+               +------+          +------+
+                   +                 +
+                   |                 |
+                   v                 v
+                  null             null
 </pre>
 
 ### API
