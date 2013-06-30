@@ -65,7 +65,6 @@
     }
   };
 
-  // extend the matrix module to provide search support using pixel positions
   var asTileMap = (function(){
 
     function createTiles(){
