@@ -1,6 +1,4 @@
-<pre>
-  TileMap
-</pre>
+# TileMap
 
 A JavaScript 2 dimensional linked list
 [![Build Status](https://travis-ci.org/mparke/tile_map.png?branch=master)](https://travis-ci.org/mparke/tile_map)
